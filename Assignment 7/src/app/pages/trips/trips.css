@@ -1,0 +1,158 @@
+/* General Page Styling */
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Trip Form Styling */
+.trip-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 900px;
+  background: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.trip-form input,
+.trip-form select {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  min-width: 180px;
+  flex: 1;
+  transition: border 0.3s;
+}
+
+.trip-form input:focus,
+.trip-form select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.trip-form button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.trip-form button:hover {
+  background-color: #2980b9;
+}
+
+.trip-form button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Separator */
+hr {
+  margin: 30px auto;
+  border: 0;
+  border-top: 1px solid #ccc;
+  width: 90%;
+}
+
+/* Trip Table Styling */
+.trip-table {
+  width: 95%;
+  margin: 0 auto 30px auto;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.trip-table thead {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.trip-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.trip-table tbody tr:hover {
+  background-color: #e1f0ff;
+}
+
+/* Buttons inside Table */
+.trip-table button {
+  margin: 2px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.trip-table button:hover {
+  opacity: 0.8;
+}
+
+.trip-table button:first-child {
+  background-color: #e74c3c; /* Delete */
+  color: #fff;
+}
+
+.trip-table button:last-child {
+  background-color: #2ecc71; /* Complete */
+  color: #fff;
+}
+
+/* Status dropdown inside table */
+.trip-table select {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* No trips template */
+#noTrips, ng-template p {
+  text-align: center;
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-top: 20px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .trip-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .trip-table th, .trip-table td {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .trip-form input,
+  .trip-form select {
+    min-width: 100%;
+  }
+
+  .trip-form button {
+    width: 100%;
+  }
+}

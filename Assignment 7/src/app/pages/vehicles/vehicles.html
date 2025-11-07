@@ -1,0 +1,47 @@
+<h2>Vehicle Management</h2>
+
+<!-- Add/Edit Vehicle Form -->
+<div class="vehicle-form">
+  <input [(ngModel)]="newVehicle.plateNumber" placeholder="Plate Number" />
+  <input [(ngModel)]="newVehicle.model" placeholder="Model" />
+  <label>
+    <input type="checkbox" [(ngModel)]="newVehicle.isAvailable" />
+    Available
+  </label>
+
+  <button (click)="addVehicle()">
+    {{ editMode ? 'Update Vehicle' : 'Add Vehicle' }}
+  </button>
+  <button *ngIf="editMode" (click)="cancelEdit()">Cancel</button>
+</div>
+
+<hr />
+
+<!-- Vehicle Table -->
+<table class="vehicle-table" *ngIf="vehicles.length > 0; else noVehicles">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Plate Number</th>
+      <th>Model</th>
+      <th>Available</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let vehicle of vehicles">
+      <td>{{ vehicle.id }}</td>
+      <td>{{ vehicle.plateNumber }}</td>
+      <td>{{ vehicle.model }}</td>
+      <td>{{ vehicle.isAvailable ? 'Yes' : 'No' }}</td>
+      <td>
+        <button (click)="editVehicle(vehicle)">Edit</button>
+        <button (click)="deleteVehicle(vehicle.id!)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<ng-template #noVehicles>
+  <p>No vehicles found.</p>
+</ng-template>

@@ -1,0 +1,158 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* ========== HEADER + NAVBAR ========== */
+.app-header {
+  background: #1e293b;
+  color: #ffffff;
+  padding: 1.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid #3b82f6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+  h1 {
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 500;
+      position: relative;
+      transition: color 0.2s ease;
+
+      &.active,
+      &:hover {
+        color: #3b82f6;
+      }
+
+      &.active::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: #3b82f6;
+        border-radius: 2px;
+      }
+    }
+  }
+}
+
+/* ========== MAIN CONTENT ========== */
+.app-content {
+  padding: 2rem;
+  min-height: 70vh;
+  background: #f8fafc;
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #1e293b;
+    border-left: 5px solid #3b82f6;
+    padding-left: 0.5rem;
+  }
+
+  button {
+    background: #3b82f6;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: #2563eb;
+    }
+
+    &:disabled {
+      background: #94a3b8;
+      cursor: not-allowed;
+    }
+  }
+
+  input,
+  select {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    outline: none;
+
+    &:focus {
+      border-color: #3b82f6;
+      box-shadow: 0 0 3px #3b82f6;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 1rem;
+
+    li {
+      padding: 0.6rem 1rem;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &:hover {
+        background: #f1f5f9;
+      }
+    }
+  }
+}
+
+/* ========== FOOTER ========== */
+.app-footer {
+  text-align: center;
+  background: #1e293b;
+  color: #cbd5e1;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  border-top: 3px solid #3b82f6;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .app-header {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .navbar {
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+  }
+
+  .app-content {
+    padding: 1rem;
+  }
+}

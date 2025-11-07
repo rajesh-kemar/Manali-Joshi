@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment 7\\tripmanagementapp\\tripmanagementapp\\tripmanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E34A331-B7C2-4AB4-8527-72845E27D70C}|TripManagementApp\\TripManagementApp.csproj|solutionrelative:tripmanagementapp\\tripmanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 333,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TripManagementApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TripManagementApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:06:49.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "TripManagementApp\\Controllers\\VehiclesController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "TripManagementApp\\Controllers\\VehiclesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:37:22.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "TripManagementApp\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Models\\Vehicle.cs",
+              "RelativeToolTip": "TripManagementApp\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:02:24.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "TripManagementApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Program.cs",
+              "RelativeToolTip": "TripManagementApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:00:37.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "TripManagementApp\\Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Models\\Driver.cs",
+              "RelativeToolTip": "TripManagementApp\\Models\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:01:24.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TripsController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Controllers\\TripsController.cs",
+              "RelativeDocumentMoniker": "TripManagementApp\\Controllers\\TripsController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Controllers\\TripsController.cs",
+              "RelativeToolTip": "TripManagementApp\\Controllers\\TripsController.cs",
+              "ViewState": "AgIAACcBAAAAAAAAAAAgwC0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:40:09.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Models\\Trip.cs",
+              "RelativeDocumentMoniker": "TripManagementApp\\Models\\Trip.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Models\\Trip.cs",
+              "RelativeToolTip": "TripManagementApp\\Models\\Trip.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:02:51.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TripManagementApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\appsettings.json",
+              "RelativeToolTip": "TripManagementApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T10:45:54.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DriversController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Controllers\\DriversController.cs",
+              "RelativeDocumentMoniker": "TripManagementApp\\Controllers\\DriversController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\Controllers\\DriversController.cs",
+              "RelativeToolTip": "TripManagementApp\\Controllers\\DriversController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:37:56.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TripManagementApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\TripManagementApp.csproj",
+              "RelativeDocumentMoniker": "TripManagementApp\\TripManagementApp.csproj",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment 7\\TripManagementApp\\TripManagementApp\\TripManagementApp.csproj",
+              "RelativeToolTip": "TripManagementApp\\TripManagementApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T11:02:26.662Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.driver-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.driver-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.driver-form button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.driver-form button:hover {
+  background-color: #125ca1;
+}
+
+.driver-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.driver-table th,
+.driver-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.driver-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}

@@ -1,0 +1,35 @@
+<h2>Driver Management</h2>
+
+<!-- Add Driver Form -->
+<div class="driver-form">
+  <input [(ngModel)]="newDriver.name" placeholder="Driver Name" />
+  <input [(ngModel)]="newDriver.licenseNumber" placeholder="License Number" />
+  <input [(ngModel)]="newDriver.phoneNumber" placeholder="Phone Number" />
+  <button (click)="addDriver()">Add Driver</button>
+</div>
+
+<hr />
+
+<!-- Driver Table -->
+<table class="driver-table" *ngIf="drivers.length > 0; else noDrivers">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>License Number</th>
+      <th>Phone Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let driver of drivers">
+      <td>{{ driver.id }}</td>
+      <td>{{ driver.name }}</td>
+      <td>{{ driver.licenseNumber }}</td>
+      <td>{{ driver.phoneNumber }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<ng-template #noDrivers>
+  <p>No drivers found.</p>
+</ng-template>

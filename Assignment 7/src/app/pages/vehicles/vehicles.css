@@ -1,0 +1,157 @@
+
+/* === Global Page Styling === */
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* === Vehicle Form Styling === */
+.vehicle-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto 25px auto;
+}
+
+.vehicle-form input[type="text"],
+.vehicle-form input[type="number"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+.vehicle-form input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.vehicle-form label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  color: #34495e;
+}
+
+.vehicle-form button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.vehicle-form button:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+.vehicle-form button:nth-child(2) {
+  background: #95a5a6;
+}
+
+.vehicle-form button:nth-child(2):hover {
+  background: #7f8c8d;
+}
+
+/* === Vehicle Table Styling === */
+.vehicle-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vehicle-table th {
+  background: #34495e;
+  color: white;
+  padding: 12px 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.vehicle-table td {
+  background: #ffffff;
+  color: #2c3e50;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.vehicle-table tr:hover td {
+  background: #f0f8ff;
+}
+
+/* === Action Buttons === */
+.vehicle-table button {
+  margin: 2px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border: none;
+}
+
+.vehicle-table button:first-child {
+  background: #27ae60;
+  color: white;
+}
+
+.vehicle-table button:first-child:hover {
+  background: #219150;
+}
+
+.vehicle-table button:last-child {
+  background: #e74c3c;
+  color: white;
+}
+
+.vehicle-table button:last-child:hover {
+  background: #c0392b;
+}
+
+/* === Empty State === */
+p {
+  text-align: center;
+  color: #7f8c8d;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  .vehicle-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vehicle-table th,
+  .vehicle-table td {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .vehicle-form input[type="text"] {
+    width: 90%;
+  }
+}

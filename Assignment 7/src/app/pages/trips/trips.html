@@ -1,0 +1,77 @@
+<h2>Trip Management</h2>
+
+<!-- Add Trip -->
+<div class="trip-form">
+
+  <select [(ngModel)]="newTrip.driverId">
+    <option value="0" disabled>Select Driver</option>
+    <option *ngFor="let driver of drivers" [value]="driver.id">{{ driver.name }}</option>
+  </select>
+
+  <select [(ngModel)]="newTrip.vehicleId">
+    <option value="0" disabled>Select Vehicle</option>
+    <option *ngFor="let vehicle of vehicles" [value]="vehicle.id">{{ vehicle.model }}</option>
+  </select>
+
+  <input [(ngModel)]="newTrip.source" placeholder="Source" />
+  <input [(ngModel)]="newTrip.destination" placeholder="Destination" />
+  <input type="datetime-local" [(ngModel)]="newTrip.startTime" />
+  <input type="datetime-local" [(ngModel)]="newTrip.endTime" />
+
+  <button (click)="createTrip()">Add Trip</button>
+</div>
+
+<hr />
+
+<!-- Trip Table -->
+<table class="trip-table" *ngIf="trips.length > 0; else noTrips">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Driver</th>
+      <th>Vehicle</th>
+      <th>Source</th>
+      <th>Destination</th>
+      <th>Start Time</th>
+      <th>End Time</th>
+      <th>Status</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let trip of trips">
+      <td>{{ trip.id }}</td>
+      <td>{{ trip.driver?.name }}</td>
+      <td>{{ trip.vehicle?.model }}</td>
+      <td>{{ trip.source }}</td>
+      <td>{{ trip.destination }}</td>
+      <td>{{ trip.startTime | date: 'short' }}</td>
+      <td>{{ trip.endTime ? (trip.endTime | date: 'short') : '-' }}</td>
+
+      <!-- Status dropdown -->
+      <td>
+        <select
+          [(ngModel)]="trip.status"
+          (change)="onStatusChange(trip)"
+          [disabled]="trip.status === 'Completed'"
+        >
+          <option value="Active">Active</option>
+          <option value="Completed">Completed</option>
+          <option value="Cancelled">Cancelled</option>
+        </select>
+      </td>
+
+      <td>
+        <button (click)="deleteTrip(trip.id!)">Delete</button>
+        <button *ngIf="trip.status === 'Active'" (click)="completeTrip(trip.id!)">
+          Complete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<ng-template #noTrips>
+  <p>No trips found.</p>
+</ng-template>

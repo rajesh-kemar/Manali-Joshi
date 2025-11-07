@@ -1,0 +1,26 @@
+<div class="dashboard-container" *ngIf="!loading; else loadingTpl">
+  <h2>Dashboard</h2>
+
+  <div class="stats">
+    <div class="card active">
+      <h3>Active Trips</h3>
+      <p>{{ activeTrips }}</p>
+    </div>
+    <div class="card completed">
+      <h3>Completed Trips</h3>
+      <p>{{ completedTrips }}</p>
+    </div>
+    <div class="card vehicles">
+      <h3>Available Vehicles</h3>
+      <p>{{ availableVehicles }}</p>
+    </div>
+  </div>
+
+  <div *ngIf="errorMessage" class="error">
+    {{ errorMessage }}
+  </div>
+</div>
+
+<ng-template #loadingTpl>
+  <div class="loading">Loading dashboard data...</div>
+</ng-template>
